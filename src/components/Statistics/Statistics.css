@@ -1,0 +1,43 @@
+.Statistics-Section {
+    background: url("../img/st4.jpg") no-repeat;
+
+    color: #ffffff;
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+
+    
+}
+
+.Statistics-Container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.flex-item {
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+
+    padding: 120px 0;
+  text-align: center
+}
+/* .flex-item-1 {
+    background-color: #B4BF35;
+}
+.flex-item-2 {
+    background-color: #B95F21;
+}
+.flex-item-3 {
+    background-color: #1C4C56;
+}
+.flex-item-4 {
+    background-color: #B4BF;
+} */
+.Statistics-Section-Title {
+    text-align: center;
+    position: relative;
+    top: 40px;
+    color: crimson;
+}

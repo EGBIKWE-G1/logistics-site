@@ -1,0 +1,10 @@
+#Services-Container {
+    background-color: #e3e8ec;
+    min-width: 100%;
+    transition: all 0.3s ease;
+}
+.Services-Title {
+    margin-top: -5%;
+    text-align: center;
+}
+
