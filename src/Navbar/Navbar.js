@@ -12,7 +12,7 @@ const Navbar = () => {
         <a href="#service">Service</a>
         <a href="#contact">Contact</a>
       </div>
-      <div
+      <div   
         className={`nav-toggle ${isOpen && "open"}`}
         onClick={() => setIsOpen(!isOpen)}
       >
