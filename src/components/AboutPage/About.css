@@ -1,6 +1,5 @@
 *{
-	margin:0px;
-	padding:0px;
+	/*  */
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
     transition: all 0.3s ease;
@@ -8,7 +7,7 @@
 }
 .section{
 	width: 100%;
-	min-height: 100vh;
+	min-height: 80vh;
 	background-color: #ddd;
     transition: all 0.3s ease;
 }

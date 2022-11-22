@@ -1,14 +1,14 @@
 import React from 'react'  
 import "../ServicePage/Service.css";  
 import s1 from "../img/s1.jpg"
-import s2 from "../img/s2.jpg"
-import s3 from "../img/s3.jpg"
+import services2 from "../img/services2.jpg"
+import service3 from "../img/service3.jpg"
 
 
 function Service() {  
   return (
     <div id="service">
-          <section className="our-team" id="Services-Container">
+          <section id="Services-Container">
         <div className="container" >
         <h2 className="Services-Title"><span style={{color: "crimson"}}>Our</span> Services</h2>
         <h4 className="text-center">WE PROVIDE FASTEST & AFFORDABLE CARGO SERVICES</h4>
@@ -27,15 +27,7 @@ function Service() {
                                 <h5 className="card-title text-info">CONSOL SERVICES</h5>
                                 <h6 className="card-subtitle mb-2 text-muted">President</h6>
                             </div>
-
                             <p className="card-text">Our Air Cargo service to Nigeria attends to numbers of shipping needs of individuals and Business. This Air freight service can handle all types of cargoes, and there is no restriction to sizes of cargo we can move to Nigeria for you from all our locations. Our Air cargo is operational and effective in more than forty counties.</p>
-
-                            {/* <ul className="list-inline text-center">
-                                <li className="list-inline text-center"><a href="#" className="fab fa-facebook-f text-infor"></a></li>
-                                <li className="list-inline text-center"><a href=" #" className="fab fa-instagram text-infor"></a></li>
-                                <li className="list-inline text-center"><a href=" #" className="fab fa-linkedin-in text-infor"></a></li>
-                                <li className="list-inline text-center"><a href=" #" className="fab fa-bahance text-infor"></a></li>
-                            </ul> */}
                         </div>
                     </div>
                 </div>
@@ -43,7 +35,7 @@ function Service() {
                 <div className="col-lg-4 mb-3">
                     <div className="card">
                         <div className="img-container">
-                            <img src={s2} alt="" className="card-img-top" />
+                            <img src={services2} alt="" className="card-img-top" />
                         </div>
                         
                         <div className="card-body">
@@ -60,7 +52,7 @@ function Service() {
                 <div className="col-lg-4 mb-3">
                     <div className="card">
                         <div className="img-container">
-                            <img src={s3} alt="" className="card-img-top" />
+                            <img src={service3} alt="" className="card-img-top" />
                         </div>
                         
                         <div className="card-body">
@@ -68,15 +60,7 @@ function Service() {
                                 <h5 className="card-title text-info">SEA FREIGHT SERVICES</h5>
                                 <h6 className="card-subtitle mb-2 text-muted">Operation Manager</h6>
                             </div>
-
                             <p className="card-text">Looking for the lowest shipping costs? Choose our sea freight services. Choose our sea freight services when costs are your primary concern, time is not a factor or your shipments are large and heavy. We ship significant volumes every year, which enables us to offer you capacity, frequent departures and competitive rates</p>
-
-                            {/* <ul className="list-inline text-center">
-                                <li className="list-inline text-center"><a href=" #" className="fab fa-facebook-f text-infor"></a></li>
-                                <li className="list-inline text-center"><a href=" #" className="fab fa-instagram text-infor"></a></li>
-                                <li className="list-inline text-center"><a href=" #" className="fab fa-linkedin-in text-infor"></a></li>
-                                <li className="list-inline text-center"><a href=" #" className="fab fa-bahance text-infor"></a></li>
-                            </ul> */}
                         </div>
                     </div>
                 </div>

@@ -5,11 +5,16 @@ import "../FooterPage/Footer.css";
 function Footer() {
   return (
     <div className="FooterSectionPage" id="contact">
-        <footer>
+      <div className='Title-FooterHeader'>
+         <h2 className='mt-4'>Onard International Limited</h2>
+      </div>
+      <div className="footer-line"></div>
+        <footer>  
         <div class="Footer-container">
             <div class="row">
                   <div class="col" id="company">
-                      <h6 className="Footer-AboutUs"><span style={{fontSize: "22px"}}>O</span>nard International Limited</h6>
+                      {/* <h6 className="Footer-AboutUs"><span style={{fontSize: "22px"}}>O</span>nard International Limited</h6> */}
+                      <h6 className="Footer-AboutUs">SUBSCRIBE NEWSLETTER</h6>
                       <p style={{fontSize: "13px"}}>
                       We wish to extend our professional competence in service delivery to your inbound shipments in the area of door to door delivery, domestic customs management and inland distribution.
                       </p>
@@ -36,10 +41,10 @@ function Footer() {
                   <div class="col" id="useful-links">
                      <h3>Links</h3>
                      <div class="links">
-                        <a href=" #">Home</a>
-                        <a href=" #">About</a>
-                        <a href=" #">Services</a>
-                        <a href=" #">Contact</a>
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#service">Services</a>
+                        <a href="#contact">Contact</a>
                      </div>
                   </div>
 
@@ -71,7 +76,7 @@ function Footer() {
 
         </div>
         <div className="copy-right">
-         <p>Copyrights © 2022 Onard International Limited | All rights reserved.</p>
+         <p>Copyrights Onard International Limited © 2022 | Terms & Condtions Privacy Policy</p>
         </div>
      </footer>
     </div>

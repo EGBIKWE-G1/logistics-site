@@ -12,7 +12,7 @@
     min-height: 100vh;
 }
 footer{
-     background-color: #333333;
+     background-color: #212a5b;
      position: relative;
      width: 100%;
      min-height: 350px;
@@ -136,9 +136,17 @@ footer{
 
 
 .FooterHeader-Component {
-    margin-top: 16%;
+    margin-top: 5%;
 }
-
+.Title-FooterHeader {
+    background-color: #9da2bd;
+    /* background-color: #9da2bd; */
+    color: #fff;
+    /* background-color: #273061; */
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
 .Footer-AboutUs {
     color: crimson;
 }

@@ -15,7 +15,7 @@ function About() {
 					<h3>Onard International Limited is one of the fastest growing Nigerian Logistics Company. Onard was incorporated in November 15 2022 and primarily engaging in the following businesses among others namely: flight logistics, carriage of passengers and freight, Supply Chain / Logistics Management, procurers of over flyer and landing permit</h3>
 					{/* <p>Lorem .</p> */}
 					<div className="button">
-						<a href=" #">Read More</a>
+						<a href="#contact">Contact Us</a>
 					</div>
 				</div>
 			</div>
