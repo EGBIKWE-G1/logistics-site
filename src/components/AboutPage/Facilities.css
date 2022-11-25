@@ -1,0 +1,60 @@
+.gallery {
+    /* border: 1px solid #ccc; */
+  }
+  .Bus-Facility-Page-section {
+    margin-top: 50px;
+  }
+  .Facility-Card-Header{
+    margin: 70px auto;
+    display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  }
+  /* .gallery img {
+    width: 100%;
+    height: auto;
+  } */
+  .des {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .responsive {
+    padding: 15px;
+    /* float: right;
+    float: left; */
+    /* display: flex; */
+    width: 16%;
+    text-align: center;
+  }
+
+  .gallery:hover {
+    background-color: white;
+    padding-top: 10px;
+  transform: translateY(-15px);
+  transition: all 0.4s ease;
+  }
+
+  /* @media only screen and (max-width: 800px) {
+    .responsive {
+        background-color: red;
+        width: 10%;      
+    }
+    
+  } */
+  
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      /* width: 50%; */
+      width: 24.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }

@@ -8,6 +8,8 @@ import  Carousel from "./components/CarouselPage/Carousel";
 import Sponsore from "./components/SponsorePage/Sponsore";
 import Footer from "./components/FooterPage/Footer";
 import Slider from "./components/HeaderSlider/Slider";
+import  Form from "./components/FormPage/Form";
+import Booking from "./components/BookingPage/Booking";
 
 
 function App() {
@@ -17,6 +19,7 @@ function App() {
       {/* <Header /> */}
       <Slider />
       <About />
+      <Booking />
       <Service />
       <br />
       <br />
@@ -24,9 +27,7 @@ function App() {
       <br />
       <br />
       
-      <div className="Sponsor-Head">
-      <Sponsore />
-      </div>
+      
       <div className="Carousel-Page">
       <Carousel />
       </div>
@@ -34,6 +35,10 @@ function App() {
       <br />
       <br />
       <br />
+      <Form />
+      <div className="Sponsor-Head">
+      <Sponsore />
+      </div>
       <div className="FooterHeader-Component">
       <Footer />
       </div>

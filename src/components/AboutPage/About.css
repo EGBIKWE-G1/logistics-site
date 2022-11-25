@@ -1,15 +1,11 @@
-*{
-	/*  */
-	box-sizing: border-box;
-	font-family: 'Poppins', sans-serif;
-    transition: all 0.3s ease;
 
-}
 .section{
 	width: 100%;
 	min-height: 80vh;
 	background-color: #ddd;
     transition: all 0.3s ease;
+	font-family: 'Poppins', sans-serif;
+
 }
 .container{
 	width: 80%;
@@ -17,6 +13,7 @@
 	margin:auto;
 	padding-top: 100px;
 }
+
 .content-section{
 	float: left;
 	width: 55%;
@@ -63,8 +60,12 @@
     border: 3px solid crimson;
     background: none;
 	padding:10px 35px;
+}
 
-
+.About-Section{
+	width: 100%;
+	min-height: 140vh;
+	background-color: #ddd;
 }
 
 @media screen and (max-width: 768px){

@@ -1,8 +1,8 @@
 import React from 'react'  
 import "../ServicePage/Service.css";  
-import s1 from "../img/s1.jpg"
+import services1 from "../img/services1.jpg"
 import services2 from "../img/services2.jpg"
-import service3 from "../img/service3.jpg"
+import services3 from "../img/services3.jpg"
 
 
 function Service() {  
@@ -19,15 +19,15 @@ function Service() {
                 <div className="col-lg-4 mb-3">
                     <div className="card">
                         <div className="img-container">
-                            <img src={s1} alt="" height={230} className="card-img-top" />
+                            <img src={services1} alt="" className="card-img-top" />
                         </div>
                         
                         <div className="card-body">
                             <div className="text-center">
-                                <h5 className="card-title text-info">CONSOL SERVICES</h5>
-                                <h6 className="card-subtitle mb-2 text-muted">President</h6>
+                                <h5 className="card-title text-info">ROAD TRANSPORTATION</h5>
+                                {/* <h6 className="card-subtitle mb-2 text-muted">President</h6> */}
                             </div>
-                            <p className="card-text">Our Air Cargo service to Nigeria attends to numbers of shipping needs of individuals and Business. This Air freight service can handle all types of cargoes, and there is no restriction to sizes of cargo we can move to Nigeria for you from all our locations. Our Air cargo is operational and effective in more than forty counties.</p>
+                            <p className="card-text">Through our network, we offer a full range of road transportation services, inside or outside Nigeria.</p>
                         </div>
                     </div>
                 </div>
@@ -40,11 +40,10 @@ function Service() {
                         
                         <div className="card-body">
                             <div className="text-center">
-                                <h5 className="card-title text-info">AIR FREIGHT SERVICES</h5>
-                                <h6 className="card-subtitle mb-2 text-muted">Co-Founder</h6>
+                                <h5 className="card-title text-info">RAIL AND MULTIMODAL</h5>
+                                {/* <h6 className="card-subtitle mb-2 text-muted">Co-Founder</h6> */}
                             </div>
-
-                            <p className="card-text">Our management consulting services focus on our clients’ most critical needs across all industries and geographies. We consult on needs such as; strategy, marketing, organization, operations, technology, transformation, digital, advanced analytics etc.we believe that quality people offer the best of themselves, and create ingenious ways</p>
+                            <p className="card-text">Faster than sea freight, less expensive than air freight. More and more common and used in daily transports!</p>
                         </div>
                     </div>
                 </div>
@@ -52,15 +51,15 @@ function Service() {
                 <div className="col-lg-4 mb-3">
                     <div className="card">
                         <div className="img-container">
-                            <img src={service3} alt="" className="card-img-top" />
+                            <img src={services3} alt="" className="card-img-top" />
                         </div>
                         
                         <div className="card-body">
                             <div className="text-center">
-                                <h5 className="card-title text-info">SEA FREIGHT SERVICES</h5>
-                                <h6 className="card-subtitle mb-2 text-muted">Operation Manager</h6>
+                                <h5 className="card-title text-info">WAREHOUSING</h5>
+                                {/* <h6 className="card-subtitle mb-2 text-muted">Operation Manager</h6> */}
                             </div>
-                            <p className="card-text">Looking for the lowest shipping costs? Choose our sea freight services. Choose our sea freight services when costs are your primary concern, time is not a factor or your shipments are large and heavy. We ship significant volumes every year, which enables us to offer you capacity, frequent departures and competitive rates</p>
+                            <p className="card-text">We have access to warehousing facilities and the necessary know-how, so our customers can focus on their core business</p>
                         </div>
                     </div>
                 </div>

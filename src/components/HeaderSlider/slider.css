@@ -101,3 +101,17 @@
 .dot:hover {
     background-color: rgba(255, 255, 255, 0.5);
 }
+
+.Data-Description1 {
+    font-size: 30px;
+}
+
+.Data-Title2 {
+    font-size: 45px;
+}
+
+@media screen and (max-width: 768px){
+    .Data-Description1 {
+        font-size: 25px;
+    }
+}

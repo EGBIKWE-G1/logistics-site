@@ -1,31 +1,32 @@
 // import React from 'react'
 import h1 from "../HeaderSlider/assets/h1.jpg";
-import Second from "../HeaderSlider/assets/Second.jpg";
-import Third from "../HeaderSlider/assets/Third.jpg";
-import Fourth from "../HeaderSlider/assets/Fourth.jpg";
+import h3 from "../HeaderSlider/assets/h3.jpg";
+import h2 from "../HeaderSlider/assets/h2.png";
+// import Fourth from "../HeaderSlider/assets/Fourth.jpg";
 
 const imageSlider = [
   {
     title: "Wellcome to",
-    description: "Onard International Limited",
-    story: "We wish to extend our professional competence in service delivery to your inbound shipments in the area of door to door delivery, domestic customs management and inland distribution.",
+    description: <p className="Data-Description1">Onard International Limited</p>,
     urls: h1,
   },       
   {
-    // title: "Second Slider Image",
-    urls: Second,
+    title: <p className="Data-Title2">The modern way to</p>,
+    description: <p className="Data-Description1">Commute across citiies</p>,
+    urls: h3,
   },
   {
-    title: "CARGO FREIGHT",
-    urls: Third,
+    title: "Road Transport",
+    description: "Services",
+    urls: h2,
   },
-  {
-    title: "Flight",
-    urls: Fourth,
-  },
+  // {
+  //   title: "Flight",
+  //   urls: Fourth,
+  // },
   {
     title: "Wellcome to",
-    description: "Onard International Limited",
+    description: <p className="Data-Description1">Onard International Limited</p>,
     urls: h1,
   },
 ]
