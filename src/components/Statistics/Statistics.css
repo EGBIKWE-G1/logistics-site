@@ -37,3 +37,16 @@
     top: 40px;
     color: crimson;
 }
+
+/********** Responsive Design ********/
+@media(max-width:600px){
+    .Statistics-Section {
+        background: url("../img/statistics.jpg") no-repeat;
+        height: 100vh;
+    }
+    .Statistics-Container {
+        display: block;
+        text-align: center;
+        }
+    
+}

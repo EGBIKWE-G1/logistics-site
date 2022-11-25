@@ -1,6 +1,6 @@
 import React from 'react'
 import "../Statistics/Statistics.css";  
-  
+    
 
 function Statistics() {
   return (
