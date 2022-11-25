@@ -24,8 +24,6 @@ function App() {
       <br />
       <br />
       <Statistics />
-      <br />
-      <br />
       
       
       <div className="Carousel-Page">
@@ -35,7 +33,9 @@ function App() {
       <br />
       <br />
       <br />
+      <div className="Form-Component-Page">
       <Form />
+      </div>
       <div className="Sponsor-Head">
       <Sponsore />
       </div>

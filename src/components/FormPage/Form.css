@@ -66,6 +66,14 @@
   margin-bottom: 15px;
   }
 
+
+
+
+.Form-Component-Page {
+    margin-top: 15rem;
+}
+
+
 /********** Responsive Design ********/
 @media(max-width:800px){
     .contact-detailsHeader {
