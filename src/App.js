@@ -9,7 +9,7 @@ import Sponsore from "./components/SponsorePage/Sponsore";
 import Footer from "./components/FooterPage/Footer";
 import Slider from "./components/HeaderSlider/Slider";
 import  Form from "./components/FormPage/Form";
-// import Booking from "./components/BookingPage/Booking";
+import Booking from "./components/BookingPage/Booking";
 
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
       {/* <Header /> */}
       <Slider />
       <About />
-      {/* <Booking /> */}
+      <Booking />
       <Service />
       <br />
       <br />

@@ -67,7 +67,7 @@
     top: 60px;
     display: flex;
     flex-direction: column;
-    background: url("../components/img/transport.jpg") no-repeat;
+    /* background: url("../components/img/transport.jpg") no-repeat; */
     background: #00123d;
     left: 0;
     width: 100%;
@@ -137,4 +137,11 @@
   }
 
 
+}
+
+@media (max-width: 470px) {
+  .nav-toggle > .bar {
+    position: relative;
+    right: 13px;
+  }
 }

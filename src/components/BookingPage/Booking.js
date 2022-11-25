@@ -52,7 +52,7 @@ function Booking() {
             </div>
             </section>
 
-            <section className="BookingContainer-header">
+            {/* <section className="BookingContainer-header">
             <div className="BookingContainer">
                 <h3>Lagos Jibowu - Enugu</h3>
             </div>
@@ -62,9 +62,9 @@ function Booking() {
             <div className="BookingContainer">
                 <h3>Calabar - Lagos Jibowu</h3>
             </div>
-            </section>
+            </section> */}
 
-            <section className="BookingContainer-header">
+            {/* <section className="BookingContainer-header">
             <div className="BookingContainer">
                 <h3>Lagos Jibowu - Benin</h3>
             </div>
@@ -86,7 +86,7 @@ function Booking() {
             <div className="BookingContainer">
                 <h3>Calabar - Lagos Jibowu</h3>
             </div>
-            </section>
+            </section> */}
         </section>
   )
 }
